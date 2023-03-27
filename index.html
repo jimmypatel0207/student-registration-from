@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form Using Table In HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Registration Form Using Table In HTML</h1>
+    <table>
+        <!-- **************************First Name******************************* -->
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" Name="FirstName" maxlength="50" placeholder="jimmy"/>(max 50 characters Allow)
+            </td>
+        </tr>
+        <!-- ******************************Last Name*********************************
+         -->
+         <tr>
+            <td>Last Name</td>
+            <td><input type="text" Name="LastName" maxlength="50" placeholder="patel"/>(max 50 characters Allow)
+            </td>
+        </tr>
+        <!-- ***********************************Email id**************************  -->
+        <tr>
+            <td>Email id</td>
+            <td><input type="email" Name="EmailId" placeholder="jimmypatel5074@gmail.com"/>
+            </td>
+        </tr>
+        <!-- ***************************************Mobile Number*********************************** -->
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="number" Name="Mobilenumber" placeholder="9373364xxx"/>( 10 Digits Allowed)
+            </td>
+        </tr>
+        <!-- *****************************************Gender*************************************** -->
+       <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female</td>
+   </tr>
+    <!-- ************************************************DOB***************************************** -->
+         <td>Date Of Birth</td>
+         <td><input type="date" name="DOB"></td>
+
+         <!-- ************************************************Address**************************** -->
+        <tr>
+         <td>Address</td>
+        <td><textarea name="name" rows="8" cols="80"></textarea></tr>
+        </tr>
+        <!-- ***********************************************City****************************** -->
+        <tr>
+            <td>city</td>
+            <td><input type="text" Name="city" maxlength="50" placeholder="mumbai"/>(max 50 characters Allow)
+            </td>
+        </tr>
+        <!-- *****************************************************Pincod******************************** -->
+        <tr>
+            <td>pincod</td>
+            <td><input type="text" Name="pincod"  placeholder="401303"/>(Max 6 Number Allowed)
+            </td>
+        </tr>
+        <!-- **************************************************state*************************************** -->
+        <tr>
+            <td>State</td>
+            <td><input type="text" Name="State" maxlength="50" placeholder="maharastra"/>(max 50 characters Allow)
+            </td>
+        </tr>
+        <!-- **********************************************country********************************************** -->
+        <tr>
+            <td>country</td>
+            <td><input type="text" Name="country" maxlength="50" placeholder="India"/>(max 50 characters Allow)
+            </td>
+        </tr>
+       <!-- **********************************************Hobbies********************************************** -->
+        <tr>
+            <td>Hobbies<br><br><br></td>
+            <td>
+                <input type="checkbox" name="Hobbiescoocking" value="coocking"/>
+                coocking<br>
+           <input type="checkbox" name="Hobbiescricket" value="cricket"/>
+                cricket<br>
+           <input type="checkbox" name="Hobbiesadventure" value="adventure"/>
+                adventure <br>
+            <input type="checkbox" name="Hobbiesdancing" value="dancing"/>
+                dancing<br>
+            <input type="checkbox" name="Hobbiesreading" value="reading"/>
+                reading<br>
+            <input type="text" Name="hobbies" maxlength="50" placeholder="teacher"/>(max 50 characters Allow)
+                </td>
+        </tr>
+         <!-- **********************************************Qualification********************************************** -->
+        <tr>
+            <td>Qualification</td>
+            <td><input type="checkbox" name="Qualification" value="High school">
+            High school
+          <input type="checkbox" name="Qualification" value="higher school">
+          higher School(12th)
+            <input type="checkbox" name="Qualification" value="Graduation">
+            Graduation(bachelor) 
+           <input type="checkbox" name="Qualification" value="Post Graduation">
+           post Graduation
+            <input type="checkbox" name="Qualification" value="phd">
+            phd</td>
+          
+        </tr>
+         <!-- *********************************************Courses Applied For********************************************** -->
+        <tr>
+         <td>Courses Applied For</td>
+        <td>
+        <input type="radio" name="Courses Applied For" value="BCA">
+        BCA
+        <input type="radio" name="Courses Applied For" value="B.COM">
+         B.COM
+       <input type="radio" name="Courses Applied For" value="B.SC"> 
+       B.SC
+        <input type="radio" name="Courses Applied For" value="BA">
+         BA
+       <input type="radio" name="Courses Applied For" value="MCA">
+       MCA
+        <input type="radio" name="Courses Applied For" value="M.C"> 
+        M.C
+       <input type="radio" name="Courses Applied For" value="M.SC">
+        M.SC
+       <input type="radio" name="Courses Applied For" value="MA">
+       MA
+    </td>
+    </tr>
+        <!-- **********************************************Hobbies********************************************** -->
+       <tr>
+       <td colspan="2" align="center"><input type="submit"value="submit">
+       <input type="reset"value="reset"></td>
+       </tr>
+    </table>
+</body>
+</html>
